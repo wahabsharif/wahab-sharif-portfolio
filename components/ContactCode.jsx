@@ -14,12 +14,12 @@ const contactItems = [
   {
     social: "phone",
     link: "+92 309 544 4412",
-    href: "tel:+923095444412",
+    href: "tel:923095444412",
   },
   {
     social: "whatsApp",
     link: "+92 309 544 4412",
-    href: "tel:+923095444412",
+    href: "https://wa.me/923095444412",
   },
   {
     social: "github",

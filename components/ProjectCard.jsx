@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import styles from '../styles/ProjectCard.module.css';
+import Image from "next/image";
+import styles from "../styles/ProjectCard.module.css";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -16,16 +16,6 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
         <div className={styles.cta}>
-          {project.source_code && (
-            <a
-              href={project.source_code}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.underline}
-            >
-              Source Code
-            </a>
-          )}
           <a
             href={project.demo}
             target="_blank"

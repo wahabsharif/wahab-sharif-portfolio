@@ -1,17 +1,16 @@
-import ErrorIcon from './icons/ErrorIcon';
-import WarningIcon from './icons/WarningIcon';
-import BellIcon from './icons/BellIcon';
-import CheckIcon from './icons/CheckIcon';
-import NextjsIcon from './icons/NextjsIcon';
-import SourceControlIcon from './icons/SourceControlIcon';
-import styles from '../styles/Bottombar.module.css';
+import ErrorIcon from "./icons/ErrorIcon";
+import WarningIcon from "./icons/WarningIcon";
+import BellIcon from "./icons/BellIcon";
+import CheckIcon from "./icons/CheckIcon";
+import SourceControlIcon from "./icons/SourceControlIcon";
+import styles from "../styles/Bottombar.module.css";
 
 const Bottombar = () => {
   return (
     <footer className={styles.bottomBar}>
       <div className={styles.container}>
         <a
-          href="https://github.com/itsnitinr/vscode-portfolio"
+          href="https://github.com/wahabsharif"
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
@@ -27,10 +26,6 @@ const Bottombar = () => {
         </div>
       </div>
       <div className={styles.container}>
-        <div className={styles.section}>
-          <NextjsIcon className={styles.icon} />
-          <p>Powered by Next.js</p>
-        </div>
         <div className={styles.section}>
           <CheckIcon className={styles.icon} />
           <p>Prettier</p>
