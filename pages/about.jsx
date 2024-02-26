@@ -20,15 +20,13 @@ const AboutPage = () => {
         <h3 className="mt mb">
           <u>Skills:</u>
         </h3>
-        <div className="skills-icons mt mb">
+        <div className="skills-icons">
           <img src="/skills/html-css.png" alt="Html Icon" />
           <img src="/skills/wordpress.png" alt="css Icon" />
-          <img src="/skills/bootstrap.png" alt="bootstrap Icon" />
           <img src="/skills/node-js.png" alt="node js Icon" />
-        </div>
-        <div className="skills-icons mt mb">
           <img src="/skills/react.png" alt="React Icon" />
           <img src="/skills/next-js.png" alt="Next Js Icon" />
+          <img src="/skills/bootstrap.png" alt="bootstrap Icon" />
           <img src="/skills/sass.png" alt="sass Icon" />
           <img src="/skills/tailwind-css.png" alt="Tailwin Css Icon" />
         </div>
