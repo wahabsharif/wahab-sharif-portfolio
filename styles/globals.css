@@ -87,11 +87,11 @@
 }
 
 .mt {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .mb {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .skills-icons {
@@ -103,7 +103,6 @@
 .skills-icons img {
   width: auto;
   height: 10vh;
-  margin-bottom: 10px;
   transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -113,10 +112,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   .skills-icons img {
-    flex: 0 0 48%; /* Display 2 images in a row */
     width: auto;
     height: 10vh;
-    margin: 1%;
+    margin-bottom: 1rem;
   }
 }
