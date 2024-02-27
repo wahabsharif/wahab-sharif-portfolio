@@ -1,3 +1,4 @@
+"use client";
 import Titlebar from "../components/Titlebar";
 import Sidebar from "../components/Sidebar";
 import Explorer from "../components/Explorer";
@@ -7,7 +8,7 @@ import styles from "../styles/Layout.module.css";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+// import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const Layout = ({ children }) => {
   // set scroll to top of main content on url pathname change
@@ -27,7 +28,7 @@ const Layout = ({ children }) => {
           <main id="main-editor" className={styles.content}>
             {children}
             <Analytics mode={"production"} />
-            <SpeedInsights />
+            {/* <SpeedInsights /> */}
           </main>
         </div>
       </div>
