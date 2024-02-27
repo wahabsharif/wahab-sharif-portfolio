@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { Analytics } from "@vercel/analytics/react";
 
 const CustomHead = ({ title }) => {
   return (
@@ -20,7 +19,6 @@ const CustomHead = ({ title }) => {
       />
       <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
       {/* <meta property="og:url" content="https://vscode-portfolio.vercel.app" /> */}
-      <Analytics />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );
